@@ -1,0 +1,57 @@
+[gd_scene load_steps=6 format=3 uid="uid://r8e5vdmp0k17"]
+
+[ext_resource type="Texture2D" uid="uid://doghmovcgeltw" path="res://graphics/map.png" id="1_uwrxv"]
+[ext_resource type="PackedScene" uid="uid://bjy1c24lq0gf7" path="res://scenes/player.tscn" id="2_yqjtg"]
+[ext_resource type="PackedScene" uid="uid://kxygjnktxlox" path="res://scenes/tree.tscn" id="3_lnu2h"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lnu2h"]
+size = Vector2(18.00438, 91.45438)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lbhrr"]
+size = Vector2(506, 55)
+
+[node name="Game" type="Node2D"]
+metadata/_edit_vertical_guides_ = [-192.0]
+metadata/_edit_horizontal_guides_ = [-337.0, -325.0, -325.0, -326.0]
+
+[node name="main_map" type="Sprite2D" parent="."]
+position = Vector2(2, -4)
+texture = ExtResource("1_uwrxv")
+
+[node name="player" parent="." instance=ExtResource("2_yqjtg")]
+position = Vector2(32, 45)
+
+[node name="tree" parent="." instance=ExtResource("3_lnu2h")]
+position = Vector2(84, 37)
+
+[node name="tree2" parent="." instance=ExtResource("3_lnu2h")]
+position = Vector2(-37, 52)
+
+[node name="left_border" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="left_border"]
+position = Vector2(202.00002, -2.999998)
+scale = Vector2(1.1108413, 7.588484)
+shape = SubResource("RectangleShape2D_lnu2h")
+
+[node name="right_border" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="right_border"]
+position = Vector2(-198.00002, -26.999998)
+scale = Vector2(1.1108413, 7.588484)
+shape = SubResource("RectangleShape2D_lnu2h")
+
+[node name="top_border" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="top_border"]
+position = Vector2(30, -351)
+shape = SubResource("RectangleShape2D_lbhrr")
+
+[node name="bottom_border" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bottom_border"]
+position = Vector2(0, 345)
+shape = SubResource("RectangleShape2D_lbhrr")
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true

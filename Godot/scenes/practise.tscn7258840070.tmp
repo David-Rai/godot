@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://dgs1uksvda3tj"]
+
+[ext_resource type="Script" uid="uid://c7whvvsy0o4y4" path="res://scenes/practise.gd" id="1_c7rst"]
+
+[node name="Practise" type="Node2D" node_paths=PackedStringArray("player_node")]
+script = ExtResource("1_c7rst")
+player_node = NodePath(".")
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -224.25
+offset_top = -60.75
+offset_right = 224.25
+offset_bottom = 60.75
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.9651584, 0.43821287, 0.70699155, 1)
+text = "This is text
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true

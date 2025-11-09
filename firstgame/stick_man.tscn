@@ -1,0 +1,58 @@
+[gd_scene load_steps=2 format=3 uid="uid://d0cbec77mxnvf"]
+
+[ext_resource type="Texture2D" uid="uid://dw1prqx26unxo" path="res://icon.svg" id="1_46bej"]
+
+[node name="stickman" type="Node2D"]
+
+[node name="head" type="Sprite2D" parent="."]
+position = Vector2(531, 49)
+scale = Vector2(0.8671875, 0.8046875)
+texture = ExtResource("1_46bej")
+
+[node name="body" type="Sprite2D" parent="."]
+position = Vector2(524, 263)
+scale = Vector2(1.7700342, 2.6128235)
+texture = ExtResource("1_46bej")
+
+[node name="hand" type="Sprite2D" parent="."]
+position = Vector2(366, 171)
+rotation = 2.488608
+scale = Vector2(1.3974872, 0.38945335)
+skew = -0.07336354
+texture = ExtResource("1_46bej")
+
+[node name="hand2" type="Sprite2D" parent="hand"]
+position = Vector2(109.45883, -17.389893)
+scale = Vector2(0.99999994, 1)
+texture = ExtResource("1_46bej")
+
+[node name="leg" type="Sprite2D" parent="."]
+position = Vector2(433, 481.99994)
+scale = Vector2(0.3603816, 1.1596988)
+texture = ExtResource("1_46bej")
+
+[node name="leg3" type="Sprite2D" parent="leg"]
+position = Vector2(-8.324463, 95.71457)
+scale = Vector2(1, 1.0000001)
+texture = ExtResource("1_46bej")
+
+[node name="leg2" type="Sprite2D" parent="."]
+position = Vector2(605.00006, 485.99994)
+scale = Vector2(0.3603816, 1.1596988)
+texture = ExtResource("1_46bej")
+
+[node name="leg3" type="Sprite2D" parent="leg2"]
+position = Vector2(5.5495605, 97.43915)
+scale = Vector2(1, 1.0000001)
+texture = ExtResource("1_46bej")
+
+[node name="hand3" type="Sprite2D" parent="."]
+position = Vector2(702, 159.99998)
+rotation = 0.32463124
+scale = Vector2(1.3974872, 0.38945335)
+skew = -0.07336354
+texture = ExtResource("1_46bej")
+
+[node name="hand" type="Sprite2D" parent="hand3"]
+position = Vector2(118.58368, 10.981262)
+texture = ExtResource("1_46bej")

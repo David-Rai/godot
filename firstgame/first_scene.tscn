@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxfnvowgwnld6"]
+
+[ext_resource type="Texture2D" uid="uid://dw1prqx26unxo" path="res://icon.svg" id="1_ngiyr"]
+[ext_resource type="PackedScene" uid="uid://d0cbec77mxnvf" path="res://stick_man.tscn" id="2_y5rs1"]
+
+[node name="firstScene" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(583, -100)
+texture = ExtResource("1_ngiyr")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(1021, -303)
+texture = ExtResource("1_ngiyr")
+
+[node name="stickman" parent="." instance=ExtResource("2_y5rs1")]
+position = Vector2(-49, -850)
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(1446, -300)
+texture = ExtResource("1_ngiyr")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(1639, -516)
+texture = ExtResource("1_ngiyr")
