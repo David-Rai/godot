@@ -1,4 +1,9 @@
-res://game.tscn
-res://game.gd
-res://player.gd
-res://player.tscn
+res://scenes/game.tscn
+res://scenes/player.tscn
+res://scripts/player.gd
+res://scenes/platform.tscn
+res://scenes/coin.tscn
+res://scripts/coin.gd
+res://coin.gd
+res://scenes/killzone.tscn
+res://scenes/killzone.gd
