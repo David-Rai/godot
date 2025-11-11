@@ -1,3 +1,7 @@
 res://scenes/game.tscn
 res://scenes/moving_enemy.tscn
 res://scripts/moving_enemy.gd
+res://scenes/enemy.tscn
+res://scripts/killzone.gd
+res://scripts/enemy.gd
+res://scenes/player.tscn

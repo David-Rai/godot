@@ -14,9 +14,9 @@ script = ExtResource("1_uokfc")
 
 [node name="RayCastLeft" type="RayCast2D" parent="enemy"]
 position = Vector2(1, -6)
-target_position = Vector2(8, -1)
+target_position = Vector2(-11, 0)
 
 [node name="RayCastRight" type="RayCast2D" parent="enemy"]
 position = Vector2(1, -7)
-target_position = Vector2(-10, 0)
+target_position = Vector2(10, 0)
 script = SubResource("GDScript_ay0mf")
