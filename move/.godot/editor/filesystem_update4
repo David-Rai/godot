@@ -1,8 +1,0 @@
-res://scenes/coin.tscn
-res://scenes/game.tscn
-res://scenes/player.tscn
-res://scenes/label_5.gd
-res://hud.tscn
-res://hud.gd
-res://label.gd
-res://scripts/Global.gd

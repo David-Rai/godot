@@ -1,9 +1,10 @@
-res://scenes/coin.tscn::6ebc48053ed6f339a6e9c5c8a02f30c7::1762865833::res://.godot/exported/133200997/export-96b2131180b71dd158e52c5527d22dd4-coin.scn
+res://scenes/coin.tscn::07a734c047a193deb340836f51354f6f::1762881641::res://.godot/exported/133200997/export-96b2131180b71dd158e52c5527d22dd4-coin.scn
 res://scenes/enemy.tscn::b9ea05102d2531cb137f004b9d5b3f3f::1762850529::res://.godot/exported/133200997/export-a930820ec0ab16db6719aff4daa500f9-enemy.scn
-res://scenes/game.tscn::ca0b71476374ab262add8b9bd7496dc4::1762864132::res://.godot/exported/133200997/export-c2a7af834e91ff64325daddf58e45dc0-game.scn
+res://scenes/game.tscn::fd3a9596d4a93472c4c0cb2c718b588b::1762909266::res://.godot/exported/133200997/export-c2a7af834e91ff64325daddf58e45dc0-game.scn
 res://scenes/killzone.tscn::b7d3b082e01c5ae36c402dee49afe8db::1762800675::res://.godot/exported/133200997/export-494bf1445653c44a49a39c8f8b1ce8d0-killzone.scn
 res://scenes/moving_enemy.tscn::2257269579ed44cd98f083a0f6091ac5::1762849640::res://.godot/exported/133200997/export-9e09ed4a4553e89f14e06b29b2677edc-moving_enemy.scn
 res://scenes/platform.tscn::834ab62c0ae4d0477a83cdfd4296220f::1762846387::res://.godot/exported/133200997/export-cc2f727180cd42d9c13434cb55b1ce69-platform.scn
-res://scenes/player.tscn::e638a6aba63b6b3527c10d853ccc16db::1762857862::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
+res://scenes/player.tscn::e638a6aba63b6b3527c10d853ccc16db::1762880511::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
 res://scenes/bg_music.tscn::1221dced99f2a4467cc7a5dc560c4668::1762865563::res://.godot/exported/133200997/export-2572bf49e828b9aa8f9b28eb323dfee1-bg_music.scn
 res://default_bus_layout.tres::455b3db182f724c0f0eab8457573a6f8::1762863762::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
+res://hud.tscn::0279786b4f9f85d32d2502663e88010a::1762881766::res://.godot/exported/133200997/export-f4cf891e5f7a93b93d9b27cfb8401ccb-hud.scn
