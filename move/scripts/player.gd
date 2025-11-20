@@ -6,8 +6,10 @@ extends CharacterBody2D
 @onready var sprite: AnimatedSprite2D = $body_image
 
 var direction := Vector2.ZERO
+var can_move=true
 
 func _physics_process(delta: float) -> void:
+	
 	# Get horizontal input only
 	if direction.x > 0:
 		sprite.flip_h=false
